@@ -1,4 +1,4 @@
-<div class="card align-items-center">
+<div class="card align-items-center hoverable">
 
     <!--Card image-->
     <div class="view overlay">
@@ -15,6 +15,7 @@
     <!--Card content-->
     <div class="card-body text-center" *ngFor="let product of product">
         <!--Category & Title-->
+<<<<<<< HEAD
         <a href="" class="grey-text">
                
             <p>{{product.name}}</p>
@@ -24,10 +25,26 @@
             
         </a>
             
+=======
+        <div>
+            <a href="" class="grey-text">
+                <h5>Outwear</h5>
+            </a>
+        </div>
+        <h5>
+            <strong>
+                <a href="" class="dark-grey-text">Black jacket</a>
+            </strong>
+        </h5>
+
+        <h4 class="font-weight-bold blue-text">
+            <strong>219$</strong>
+        </h4>
+>>>>>>> 4ef66d34c7a7ee0f2ca9b5c97b557c5594339ace
 
         <div class="btn-group" role="group" aria-label="Basic example">
-            <button mdbBtn outline="true" type="button" color="primary" size="sm" class="waves-light"
-                mdbWavesEffect>Rent</button>
+            <button (click)="rentProduct()" mdbBtn outline="true" type="button" color="primary" size="sm"
+                class="waves-light" mdbWavesEffect>Rent</button>
             <button mdbBtn outline="true" type="button" color="primary" size="sm" class="waves-light"
                 mdbWavesEffect>Exchange</button>
         </div>

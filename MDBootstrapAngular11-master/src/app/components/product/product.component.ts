@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import{ Product}from 'src/app/ProductInter';
-
-import{ Router} from '@angular/router'
+import { Router } from '@angular/router';
 
 import { from } from 'rxjs';
 @Component({
@@ -42,6 +41,10 @@ export class ProductComponent implements OnInit {
 
   ngOnInit(): void {
 
+  }
+
+  rentProduct () {
+    this.router.navigate(['rent', 2]);
   }
 
 }

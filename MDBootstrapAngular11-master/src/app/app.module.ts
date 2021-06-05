@@ -11,13 +11,15 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductComponent } from './components/product/product.component';
+import { RentComponent } from './components/rent/rent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    ProductComponent
+    ProductComponent,
+    RentComponent
   ],
   imports: [
     BrowserModule,
