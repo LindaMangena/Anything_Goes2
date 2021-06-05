@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  flex-direction: column;
+
+  .banner {
+    .img {
+      width: 100%;
+    }
+  }
+
+  .search {
+    width: 400px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+}
