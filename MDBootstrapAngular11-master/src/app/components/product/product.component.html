@@ -13,9 +13,11 @@
     <!--Card content-->
     <div class="card-body text-center">
         <!--Category & Title-->
-        <a href="" class="grey-text">
-            <h5>Outwear</h5>
-        </a>
+        <div>
+            <a href="" class="grey-text">
+                <h5>Outwear</h5>
+            </a>
+        </div>
         <h5>
             <strong>
                 <a href="" class="dark-grey-text">Black jacket</a>
@@ -27,8 +29,8 @@
         </h4>
 
         <div class="btn-group" role="group" aria-label="Basic example">
-            <button mdbBtn outline="true" type="button" color="primary" size="sm" class="waves-light"
-                mdbWavesEffect>Rent</button>
+            <button (click)="rentProduct()" mdbBtn outline="true" type="button" color="primary" size="sm"
+                class="waves-light" mdbWavesEffect>Rent</button>
             <button mdbBtn outline="true" type="button" color="primary" size="sm" class="waves-light"
                 mdbWavesEffect>Exchange</button>
         </div>
